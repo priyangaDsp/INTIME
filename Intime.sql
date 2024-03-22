@@ -191,6 +191,7 @@ CREATE TABLE leave_type (
   PRIMARY KEY (leave_type_id)
 ); 
 
+
 CREATE TABLE employee_leave (
   leave_id int NOT NULL AUTO_INCREMENT,
   leave_description varchar(255),
